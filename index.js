@@ -1,3 +1,4 @@
+alert("fuck you");
 var audio=[];
 for(var i=0;i<4;i++)
 audio[i]=new Audio('sounds/tom-'+(i+1)+'.mp3');

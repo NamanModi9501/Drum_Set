@@ -1,9 +1,9 @@
 var audio=[];
 for(var i=0;i<4;i++)
-audio[i]=new Audio('../sounds/tom-'+(i+1)+'.mp3');
-audio.push(new Audio('../sounds/snare.mp3'));
-audio.push(new Audio('../sounds/crash.mp3'));
-audio.push(new Audio('../sounds/kick-bass.mp3'));
+audio[i]=new Audio('sounds/tom-'+(i+1)+'.mp3');
+audio.push(new Audio('sounds/snare.mp3'));
+audio.push(new Audio('sounds/crash.mp3'));
+audio.push(new Audio('sounds/kick-bass.mp3'));
 document.addEventListener("keydown",function(event){
   var k=event.key;
   switch(k){

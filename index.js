@@ -1,6 +1,6 @@
 var audio=[];
 for(var i=0;i<4;i++)
-audio[i]=new Audio('tom-'+(i+1)+'.mp3');
+  audio[i]=new Audio('tom-'+(i+1)+'.mp3');
 audio.push(new Audio('snare.mp3'));
 audio.push(new Audio('crash.mp3'));
 audio.push(new Audio('kick-bass.mp3'));
